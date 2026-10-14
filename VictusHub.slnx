@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VictusHub.Core/VictusHub.Core.csproj" />
+    <Project Path="src/VictusHub.App/VictusHub.App.csproj" />
+    <Project Path="src/VictusHub.Probe/VictusHub.Probe.csproj" />
+    <Project Path="src/VictusHub.Service/VictusHub.Service.csproj" />
+  </Folder>
+  <Folder Name="/tests/"><Project Path="tests/VictusHub.Tests/VictusHub.Tests.csproj" /></Folder>
+</Solution>

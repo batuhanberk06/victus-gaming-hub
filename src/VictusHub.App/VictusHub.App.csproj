@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\Victus.ico</ApplicationIcon>
+    <Product>Victus Gaming Hub</Product>
+    <Title>Victus Gaming Hub</Title>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="..\VictusHub.Core\VictusHub.Core.csproj" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets\Victus.ico"/><Resource Include="Assets\Victus.png"/></ItemGroup>
+</Project>
