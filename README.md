@@ -6,7 +6,7 @@ A compact, local Windows control panel for HP Victus. Version **0.2.0** targets 
 
 ## Install
 
-Run **Setup.exe** and approve the Windows administrator prompt. Setup installs into `C:\Program Files\VictusHub`, registers the private local control service, and adds a Start menu shortcut.
+[Download Setup.exe](https://github.com/batuhanberk06/victus-gaming-hub/releases/latest/download/Setup.exe), run it, and approve the Windows administrator prompt. Setup installs into `C:\Program Files\VictusHub`, registers the private local control service, and adds a Start menu shortcut.
 
 - **Start with Windows** creates a shortcut in the installing user's Startup folder. The app starts in the system tray. This can be changed in Settings; legacy Run entries are migrated to avoid duplicate startup.
 - **CPU temperature and power (PawnIO)** opens the official signed PawnIO installer if it is absent. Use the standard installation. Existing PawnIO is retained, including when Victus Gaming Hub is removed.
@@ -61,5 +61,6 @@ VictusHub.Probe.exe --snapshot # admin; fixed read-only BIOS queries
 Control commands accept only fixed actions. There is no raw BIOS command API. Local logs/reports can contain device information; review them before sharing.
 
 Source is GPL-3.0-or-later. Third-party licenses and the requested HP Victus mark are described in THIRD-PARTY-NOTICES.md. This is an independent project, not an official HP product.
+
 
 
